@@ -40,7 +40,7 @@ DJANGO_APPS = [
 ]
 
 PROJECT_APPS = [
-
+    'bio.apps.BioConfig',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS
