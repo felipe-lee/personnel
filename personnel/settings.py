@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Django settings for personnel project.
 
@@ -41,6 +42,7 @@ DJANGO_APPS = [
 
 PROJECT_APPS = [
     'bio.apps.BioConfig',
+    'functional_tests.apps.FunctionalTestsConfig',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS
